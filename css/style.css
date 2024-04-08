@@ -230,10 +230,6 @@ a {
 
 /* OUR-COLLECTION */
 
-.our-collection {
-	position: relative;
-}
-
 .our-collaction__img-one {
 	position: absolute;
 	top: 0;
@@ -253,6 +249,7 @@ a {
 }
 
 .our-collection__container {
+	position: relative;
 	background-image: url(../img/our-collaction-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
