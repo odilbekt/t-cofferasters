@@ -529,3 +529,33 @@ a {
 .site-footer__top-link svg:active {
 	opacity: 0.6;
 }
+
+.our-comitment__inner {
+	position: relative;
+	padding: 160px 64px 200px 165px;
+	background-image: url(../img/our-commitment-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.our-comitment__img-wrapper {
+	margin-right: 185px;
+}
+
+.our-comitment__info {
+	max-width: 626px;
+	width: 100%;
+}
+
+.our-comitment-title {
+	margin-bottom: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 1.2;
+	color: var(--black-color);
+}
