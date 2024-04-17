@@ -527,6 +527,12 @@ a {
 	opacity: 0.6;
 }
 
+/* OUR COMITMENT */
+
+.our-comitment {
+	margin-bottom: 160px;
+}
+
 .our-comitment__inner {
 	position: relative;
 	padding: 160px 64px 200px 165px;
@@ -555,4 +561,43 @@ a {
 	font-size: 48px;
 	line-height: 1.2;
 	color: var(--black-color);
+}
+
+/* UNCOMPROMISING-QUALITY */
+
+.uncompromising-quality__inner {
+	background-image: url(../img/uncopromising-quality-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color: var(--white-color);
+	padding: 100px 30px 118px 143px;
+	position: relative;
+}
+
+.uncompromising-quality__info {
+	max-width: 539px;
+	width: 100%;
+}
+
+.uncompromising-quality__title {
+	margin-bottom: 24px;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 1.2;
+	max-width: 397px;
+	text-transform: uppercase;
+}
+
+.uncompromising-quality__text {
+	line-height: 1.7;
+}
+
+.uncompromising-quality__img {
+	width: 550px;
+	height: 500px;
+	object-fit: cover;
+	position: absolute;
+	right: 30px;
+	top: -90px;
 }
