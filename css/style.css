@@ -436,6 +436,8 @@ a {
 }
 
 .how-it-works__item {
+	max-width: 433px;
+	width: 100%;
 	background-color: var(--white-color);
 	padding: 20px 20px 40px;
 	color: var(--text-color);
@@ -564,6 +566,10 @@ a {
 }
 
 /* UNCOMPROMISING-QUALITY */
+
+.uncompromising-quality {
+	margin-bottom: 20px;
+}
 
 .uncompromising-quality__inner {
 	background-image: url(../img/uncopromising-quality-bg.jpg);
