@@ -409,27 +409,24 @@ a {
 	margin-bottom: 80px;
 }
 
-.how-it-works__kvadrat-inner {
-	width: 60px;
-	height: 60px;
-	background-color: var(--white-color);
-	border: 4px solid var(--darkgold-bg);
+.how-it-works__kvadrat {
+	max-width: 966px;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	background-image: url(../img/how-it-works-line.svg);
 	background-repeat: no-repeat;
 	background-position: center center;
-}
-
-.how-it-works__kvadrat {
-	width: 50%;
-	height: 60%;
-	background-color: var(--white-color);
-	border: 4px solid var(--darkgold-bg);
 	margin-bottom: 20px;
 }
+.how-it-works__kvadrat-inner {
+	width: 60px;
+	height: 60px;
+	background-color: var(--white-color);
+	border: 4px solid var(--darkgold-bg);
+}
 
-.how-it-works-list {
+.how-it-works__list {
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
