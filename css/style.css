@@ -126,6 +126,7 @@ a {
 
 .site-header {
 	margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 .site-header__container {
@@ -388,6 +389,10 @@ a {
 	margin-bottom: 10px;
 }
 
+.create-plan-how {
+	padding-top: 20px;
+}
+
 .how-it-works__inner {
 	position: relative;
 	background-image: url(../img/how-it-works-bg.jpg);
@@ -433,6 +438,9 @@ a {
 	margin: 0;
 	padding: 0;
 	margin-bottom: 60px;
+}
+.creat-plan-list {
+	margin-bottom: 0;
 }
 
 .how-it-works__item {
